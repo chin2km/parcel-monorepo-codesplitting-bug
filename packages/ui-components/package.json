@@ -1,0 +1,8 @@
+{
+  "name": "@chin2km/ui-components",
+  "main": "index.ts",
+  "version": "1.0.0",
+  "license": "MIT",
+  "sideEffects": false,
+  "dependencies": {}
+}

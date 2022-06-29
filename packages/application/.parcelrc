@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "@parcel/config-default"
+  ],
+  "reporters": [
+    "@parcel/reporter-dev-server",
+    "@parcel/reporter-bundle-analyzer"
+  ],
+  "transformers": {
+    "*.svg": [
+      "...",
+      "@parcel/transformer-svg-react"
+    ]
+  }
+}
